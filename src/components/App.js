@@ -6,7 +6,7 @@ import history from '../history'
 const App = () => {
   return (
     <p>Hello</p>,
-    <Router history={history}>
+    <Router >
       <div>
         <Header />
         <Switch>
