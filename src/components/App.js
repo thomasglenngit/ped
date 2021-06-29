@@ -11,7 +11,7 @@ import Smith from './Smith'
 const App = () => {
   return (
     <p>Hello</p>,
-    
+
     <BrowserRouter >
       <div>
         <Header />
@@ -31,6 +31,9 @@ const App = () => {
           <Route path="/Smith">
             <Smith />
           </Route>
+          {/* <Route path="/">
+            <Splash />
+          </Route> */}
         </Switch>
       </div>
 
