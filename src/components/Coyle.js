@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/styles.css'
+import styles from './mystyle.module.css'
 
 
 
@@ -23,14 +23,14 @@ const Coyle = () => {
           <div className="ui segment">
             <label>Chapters 1-2 <span>Summary</span></label>
             <br />
-            <textarea cols="90" rows="30"></textarea>
+            <textarea cols="90" rows="30" className={styles.framespace}></textarea>
             <br />
             <label>Chapters 1-2 <span>Key Concepts</span></label>
-            <textarea cols="90" rows="15"></textarea><br />
+            <textarea cols="90" rows="15" className={styles.framespace}></textarea><br />
             <label>Chapters 1-2 <span>Key Terms (at least 5)</span></label>
-            <textarea cols="90" rows="15"></textarea><br />
+            <textarea cols="90" rows="15" className={styles.framespace}></textarea><br />
             <label>Chapters 1-2 <span>Making Connections</span></label>
-            <textarea cols="90" rows="30"></textarea><br />
+            <textarea cols="90" rows="30" className={styles.framespace}></textarea><br />
           </div>
 
           <div className="ui segment">
