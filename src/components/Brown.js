@@ -9,14 +9,77 @@ const Brown = () => {
         <p>by Oren L. Brown</p>
         <form >
           <label>Student Name</label>
-          <input>
-          </input>
+          <br/>
+          <input></input>
+          <br/>
           <label>Major
           </label>
-          <input></input>
-          <label>What is your reaction to the first three chapters?</label>
           <br/>
-          <textarea cols="90" rows="30"></textarea>
+          <input></input>
+          <br/>
+          <label>Chapter 1 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 2 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 3 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 4 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 5 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 6 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 7 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 8 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 9 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 10 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 11 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 12 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 13 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 14 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 15 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 16 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 17 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 18 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 19 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 20 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
+          <label>Chapter 21 Summary:</label>
+          <br/>
+          <textarea cols="90" rows="30"></textarea><br/>
 
         </form>
         

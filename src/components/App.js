@@ -6,6 +6,7 @@ import Brown from './Brown'
 import Coyle from './Coyle'
 import Ristad from './Ristad'
 import Smith from './Smith'
+import Syllabus from './Syllabus'
 // import history from '../history'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <BrowserRouter >
       <div>
         <Header />
+        <Syllabus />
         <Switch>
           <Route path="/Profile">
             <Profile />
