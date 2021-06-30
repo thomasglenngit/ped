@@ -20,10 +20,11 @@ const Coyle = () => {
           <input></input>
           <br />
           <br />
-          <div className="ui divider">
+          <div className="ui segment">
             <label>Chapters 1-2 <span>Summary</span></label>
             <br />
-            <textarea cols="90" rows="30"></textarea><br />
+            <textarea cols="90" rows="30"></textarea>
+            <br />
             <label>Chapters 1-2 <span>Key Concepts</span></label>
             <textarea cols="90" rows="15"></textarea><br />
             <label>Chapters 1-2 <span>Key Terms (at least 5)</span></label>
@@ -32,7 +33,7 @@ const Coyle = () => {
             <textarea cols="90" rows="30"></textarea><br />
           </div>
 
-          <div className="ui divider">
+          <div className="ui segment">
             <br />
             <label>Chapters 3-4 <span>Summary</span></label>
             <br />
@@ -45,7 +46,7 @@ const Coyle = () => {
             <textarea cols="90" rows="30"></textarea><br />
           </div>
 
-          <div className="ui divider">
+          <div className="ui segment">
             <br />
             <label>Chapters 5-7 <span>Summary</span></label>
             <br />
@@ -58,7 +59,7 @@ const Coyle = () => {
             <textarea cols="90" rows="30"></textarea><br />
           </div>
 
-          <div className="ui divider">
+          <div className="ui segment">
             <br />
             <label>Chapters 8-9 <span>Summary</span></label>
             <br />
@@ -71,7 +72,7 @@ const Coyle = () => {
             <textarea cols="90" rows="30"></textarea><br />
           </div>
 
-          <div className="ui divider">
+          <div className="ui segment">
             <br />
             <label>Chapter 10, Epilogue Summary:</label>
             <br />
