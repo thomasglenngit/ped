@@ -16,7 +16,7 @@ const App = () => {
     <BrowserRouter >
       <div>
         <Header />
-        <Syllabus />
+        {/* <Syllabus /> */}
         <Switch>
           <Route path="/Profile">
             <Profile />
