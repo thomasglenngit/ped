@@ -11,35 +11,39 @@ import Syllabus from './Syllabus'
 
 const App = () => {
   return (
-    <p>Hello</p>,
+    <React.Fragment>
+      <BrowserRouter >
+      <Header />
+        <div className="body">
 
-    <BrowserRouter >
-      <div>
-        <Header />
-        {/* <Syllabus /> */}
-        <Switch>
-          <Route path="/Profile">
-            <Profile />
-          </Route>
-          <Route path="/Brown">
-            <Brown />
-          </Route>
-          <Route path="/Coyle">
-            <Coyle />
-          </Route>
-          <Route path="/Ristad">
-            <Ristad />
-          </Route>
-          <Route path="/Smith">
-            <Smith />
-          </Route>
-          {/* <Route path="/">
+          
+          <Switch>
+            <Route path="/Syllabus">
+              <Syllabus />
+            </Route>
+            <Route path="/Profile">
+              <Profile />
+            </Route>
+            <Route path="/Brown">
+              <Brown />
+            </Route>
+            <Route path="/Coyle">
+              <Coyle />
+            </Route>
+            <Route path="/Ristad">
+              <Ristad />
+            </Route>
+            <Route path="/Smith">
+              <Smith />
+            </Route>
+            {/* <Route path="/">
             <Splash />
           </Route> */}
-        </Switch>
-      </div>
+          </Switch>
+        </div>
 
-    </BrowserRouter>
+      </BrowserRouter>
+    </React.Fragment>
 
   )
 }

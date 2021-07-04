@@ -6,6 +6,13 @@ textarea {
   margin-bottom: 20px;
 }
 
-button {
-  margin: 50px;
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.body {
+  background-image: url('http://intunemusic.com.sg/wp-content/uploads/2019/10/singapore-singing-Instructor-why-do-you-need-one.jpg');
+  color: white;
+  
 }
