@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+import '../styles/styles.css'
 
 class Ristad extends React.Component {
 
@@ -11,7 +11,7 @@ class Ristad extends React.Component {
   }
 
   render() {
-    const { showDivA, showDivB, showDivC, showDivD, showDivE } = this.state
+    const { showDivA, showDivB, showDivC, showDivD } = this.state
 
     return (
       <React.Fragment>
