@@ -21,9 +21,6 @@ const Header = () => {
         </nav>
         <li id="auth"><GoogleAuth /></li>
       </div>
-      <div>splash page here</div>
-
-
     </React.Fragment>
   )
 }

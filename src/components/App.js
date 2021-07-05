@@ -7,6 +7,8 @@ import Coyle from './Coyle'
 import Ristad from './Ristad'
 import Smith from './Smith'
 import Syllabus from './Syllabus'
+import Splash from './Splash'
+import Footer from './Footer'
 // import history from '../history'
 
 const App = () => {
@@ -36,13 +38,13 @@ const App = () => {
             <Route path="/Smith">
               <Smith />
             </Route>
-            {/* <Route path="/">
+            <Route path="/">
             <Splash />
-          </Route> */}
+          </Route>
           </Switch>
         </div>
-
       </BrowserRouter>
+      <Footer />
     </React.Fragment>
 
   )

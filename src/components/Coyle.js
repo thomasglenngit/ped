@@ -33,19 +33,19 @@ class Coyle extends React.Component {
           <br />
           <input></input><br />
           <br />
-          <button className="ui orange button" onClick={() => this.setState({ showDivA: !showDivA })}
+          <button className="ui yellow button" onClick={() => this.setState({ showDivA: !showDivA })}
           >{showDivA ? 'collapse chs. 1-2' : 'show chs. 1-2'}
           </button>
-          <button className="ui teal button" onClick={() => this.setState({ showDivB: !showDivB })}
+          <button className="ui olive button" onClick={() => this.setState({ showDivB: !showDivB })}
           >{showDivB ? 'collapse chs. 3-4' : 'show chs. 3-4'}
           </button>
-          <button className="ui blue button" onClick={() => this.setState({ showDivC: !showDivC })}
+          <button className="ui green button" onClick={() => this.setState({ showDivC: !showDivC })}
           >{showDivC ? 'collapse chs. 5-7' : 'show chs. 5-7'}
           </button>
-          <button className="ui purple button" onClick={() => this.setState({ showDivD: !showDivD })}
+          <button className="ui teal button" onClick={() => this.setState({ showDivD: !showDivD })}
           >{showDivD ? 'collapse chs. 8-9' : 'show chs. 8-9'}
           </button>
-          <button className="ui yellow button" onClick={() => this.setState({ showDivE: !showDivE })}
+          <button className="ui blue button" onClick={() => this.setState({ showDivE: !showDivE })}
           >{showDivE ? 'collapse ch. 10/Epilogue' : 'show ch. 1-/Epilogue'}
           </button>
           <div className="form-elements">

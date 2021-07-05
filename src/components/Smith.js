@@ -29,22 +29,22 @@ class Smith extends React.Component {
           <input></input><br />
           <br />
           
-            <button className="ui orange button" onClick={() => this.setState({ showDivA: !showDivA })}
+            <button className="ui yellow button" onClick={() => this.setState({ showDivA: !showDivA })}
             >{showDivA ? 'collapse Intro, Pt. 1, ch. 1' : 'show chs. Intro, Pt. 1, ch.1'}
             </button>
-            <button className="ui teal button" onClick={() => this.setState({ showDivB: !showDivB })}
+            <button className="ui olive button" onClick={() => this.setState({ showDivB: !showDivB })}
             >{showDivB ? 'collapse chs. 2-3' : 'show chs. 2-3'}
             </button>
-            <button className="ui blue button" onClick={() => this.setState({ showDivC: !showDivC })}
+            <button className="ui green button" onClick={() => this.setState({ showDivC: !showDivC })}
             >{showDivC ? 'collapse Intro Pt. II, ch. 4-6 ' : 'show ntro Pt. II, ch. 4-6'}
             </button>
-            <button className="ui purple button" onClick={() => this.setState({ showDivD: !showDivD })}
+            <button className="ui teal button" onClick={() => this.setState({ showDivD: !showDivD })}
             >{showDivD ? 'collapse chs. 7-9' : 'show chs. 7-9'}
             </button>
-            <button className="ui yellow button" onClick={() => this.setState({ showDivE: !showDivE })}
+            <button className="ui blue button" onClick={() => this.setState({ showDivE: !showDivE })}
             >{showDivE ? 'collapse ch. 10-12' : 'show ch. 10-12'}
             </button>
-            <button className="ui yellow button" onClick={() => this.setState({ showDivE: !showDivE })}
+            <button className="ui violet button" onClick={() => this.setState({ showDivE: !showDivE })}
             >{showDivE ? 'collapse ch. 13-14' : 'show ch. 13-14'}
             </button>
           

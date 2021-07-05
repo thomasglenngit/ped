@@ -29,16 +29,16 @@ class Ristad extends React.Component {
           <input></input>
           <br />
           <br />
-          <button className="ui orange button" onClick={() => this.setState({ showDivA: !showDivA })}
+          <button className="ui yellow button" onClick={() => this.setState({ showDivA: !showDivA })}
           >{showDivA ? 'collapse chs. 1-4' : 'show chs. 1-4'}
           </button>
-          <button className="ui teal button" onClick={() => this.setState({ showDivB: !showDivB })}
+          <button className="ui olive button" onClick={() => this.setState({ showDivB: !showDivB })}
           >{showDivB ? 'collapse chs. 5-8' : 'show chs. 5-8'}
           </button>
-          <button className="ui blue button" onClick={() => this.setState({ showDivC: !showDivC })}
+          <button className="ui green button" onClick={() => this.setState({ showDivC: !showDivC })}
           >{showDivC ? 'collapse chs. 9-12' : 'show chs. 9-12'}
           </button>
-          <button className="ui purple button" onClick={() => this.setState({ showDivD: !showDivD })}
+          <button className="ui teal button" onClick={() => this.setState({ showDivD: !showDivD })}
           >{showDivD ? 'collapse chs. 13-16' : 'show chs. 13-16'}
           </button>
           <div>
