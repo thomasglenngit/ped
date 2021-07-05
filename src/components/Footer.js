@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <ul>
+        <li>USU Links:</li>
         <li><a href="https://www.usu.edu/calendar/academic/index.cfm?year=2021">USU Calendar</a></li>
         <li><a href="https://www.usu.edu/">USU Website</a></li>
         <li><a href="https://music.usu.edu/area-of-study/ba-music">USU Music</a></li>
@@ -17,7 +18,7 @@ const Footer = () => {
         <li><a href="https://music.usu.edu/area-of-study/grad-voice">MM Voice Performance</a></li>
       </ul>
       <ul>
-        <li>Links:</li>
+        <li>Important Links:</li>
         <li><a href="https://www.thomas-glenn.com/">Prof. Thomas Glenn</a></li>
       </ul>
     </React.Fragment>

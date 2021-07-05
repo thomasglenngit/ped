@@ -6,6 +6,10 @@ textarea {
   margin-bottom: 20px;
 }
 
+ul {
+  align-items: right;
+}
+
 li {
   display: inline;
   margin: 10px;
@@ -24,3 +28,6 @@ li {
   color: black;
 }
 
+#splash-body {
+  height: 300px;
+}
