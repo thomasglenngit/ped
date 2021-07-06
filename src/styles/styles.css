@@ -4,6 +4,7 @@ span {
 
 textarea {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 ul {
@@ -15,9 +16,7 @@ li {
   margin: 10px;
 }
 
-#id {
-  float: left;
-}
+
 
 .body {
   background-image: url('http://intunemusic.com.sg/wp-content/uploads/2019/10/singapore-singing-Instructor-why-do-you-need-one.jpg');
