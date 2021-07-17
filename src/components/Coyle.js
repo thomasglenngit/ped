@@ -1,27 +1,27 @@
 import React from 'react'
-import  { StudentForm } from './StudentForm'
+import StudentForm from './StudentForm'
 import '../styles/styles.css'
 
 
 
 class Coyle extends React.Component {
 
-  state = {
-    showDivA: false,
-    showDivB: false,
-    showDivC: false,
-    showDivD: false,
-    showDivE: false,
-  }
+  // state = {
+  //   showDivA: false,
+  //   showDivB: false,
+  //   showDivC: false,
+  //   showDivD: false,
+  //   showDivE: false,
+  // }
 
   render() {
-    const { showDivA, showDivB, showDivC, showDivD, showDivE } = this.state
+    // const { showDivA, showDivB, showDivC, showDivD, showDivE } = this.state
 
     // render() {
     //   return (
     //     <div>
     //       <h3>Create a Stream</h3>
-    //       <StreamForm onSubmit={this.onSubmit} />
+    //       <StudentForm onSubmit={this.onSubmit} />
     //     </div>
     //   )
     // }
@@ -44,7 +44,7 @@ class Coyle extends React.Component {
           <input></input><br />
           <br />
           <StudentForm />
-          <button className="ui yellow button" onClick={() => this.setState({ showDivA: !showDivA })}
+          {/* <button className="ui yellow button" onClick={() => this.setState({ showDivA: !showDivA })}
           >{showDivA ? 'collapse chs. 1-2' : 'show chs. 1-2'}
           </button>
           <button className="ui olive button" onClick={() => this.setState({ showDivB: !showDivB })}
@@ -140,7 +140,7 @@ class Coyle extends React.Component {
                 </div>
               )}
             </div>
-          </div>
+          </div> */}
         </div>
       </React.Fragment>
     )
