@@ -1,9 +1,13 @@
 import { combineReducers } from 'redux';
 import { reducer as formReducer } from 'redux-form';
 import authReducer from './authReducer';
+import { firestoreReducer } from 'redux-firestore';
 
 
-export default combineReducers({
+const rootReducer =  combineReducers({
   auth: authReducer,
-  form: formReducer
+  form: formReducer,
+  firestore: firestoreReducer
 });
+
+export default rootReducer

@@ -2,9 +2,9 @@ import React from 'react'
 import { Field, reduxForm } from 'redux-form'
 
 class StudentForm extends React.Component {
-
-  state =
-    {
+  constructor(props) {
+    super(props)
+    this.state = {
       //Coyle
       showDivA: false,
       showDivB: false,
@@ -34,6 +34,7 @@ class StudentForm extends React.Component {
       showDivT: false,
       showDivU: false,
     }
+  }
 
 
   renderError({ error, touched }) {
@@ -69,7 +70,7 @@ class StudentForm extends React.Component {
 
     return (
       <React.Fragment>
-        <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
+        <form onSubmit={this.onSubmit} className="ui form error">
           <div>
             <button className="ui yellow button" onClick={() => this.setState({ showDivA: !showDivA })}
             >{showDivA ? 'collapse chs. 1-2' : 'show chs. 1-2'}
