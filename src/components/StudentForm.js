@@ -60,7 +60,9 @@ class StudentForm extends React.Component {
 
   onSubmit = (formValues) => {
     this.props.onSubmit(formValues)
+    console.log(this.props)
   }
+  
 
   render() {
     const { showDivA, showDivB, showDivC, showDivD, showDivE } = this.state

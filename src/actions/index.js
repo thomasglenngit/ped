@@ -21,9 +21,9 @@ export const signOut = () => {
 
 export const createStudent = formValues => (dispatch, getState) => {
   const { userId } = getState().auth
-  const response =  { ...formValues, userId }
+  const response = { ...formValues, userId }
 
-  dispatch({ type: CREATE_STUDENT, payload: response.formValues, userId})
+  dispatch({ type: CREATE_STUDENT, payload: response.data })
 }
 
 // export const editStudent = (id, formValues) => (dispatch) => {
